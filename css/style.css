@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*common start*/
+body{
+    
+    margin:0px;
+    font-family:"playfair-display",serif;
+    font-size:16px;
+    font-weight:400;
+    color:#626262;
+}
+/*common end*/
+/*header start*/
+header {
+    padding-top: 24px;
+}
+.container{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+   /* border: 1px solid;*/
+    
+}
+.content{
+    overflow: hidden;
+}
+.logo{
+    width: 12%;
+    float: left;
+    margin-top: 10px;
+    /*border: 1px solid;*/
+}
+
+.logo img{
+    width: 100%;}
+    
+.menu{
+    width: 60%;
+    float: right;
+    /*border: 1px solid;*/
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin-right: 90px;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    display: inline-block;
+    color:#626262;
+}
+.menu ul li:nth-child(4) a{
+    margin-right:0;
+}
+.menu ul li a:hover{
+   border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    
+}
+.b1_img{width: ;
+}
+.b1_img img{
+    width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+}
+.g_content{
+    padding: 100px;
+}
+.light{
+    font-family: ubuntu;
+    font-weight:300;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text{
+line-height: 24px;
+}
+.light{
+    margin-top: 40px;
+    text-decoration: none;
+    color: #b4ad9e;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+padding: 0 0 100px;
+}
+.b_content{
+ overflow: hidden;
+ 
+}
+.b_item{
+    width: 45%;
+    float: left;
+    /*border: 1px solid;*/
+    margin-top: 70px;
+}
+.b_item:nth-child(even){
+    margin-left:60px; ;
+}
+.b_img{
+  margin-bottom: 20px;
+}
+.b_img img{
+    width: 100%;
+}
+.b_light{
+    margin: 30px 0 0;
+    font-family: ubuntu;
+    font-weight: 300;
+    color: #b4ad9e;
+    display: inline-block;
+}
+.b_title{
+    font-size: 30px;
+    margin: 30px  0;
+}
+.b_text{
+    line-height: 24px;
+}
+/*blog end*/
+/*newsletter start*/
+.news{
+    min-height: 300px;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup{
+    text-align: center;
+    
+}
+.s_h1{
+    margin-top: 0;
+    margin-bottom: 80px;
+    font-size: 30px;
+    color:#333333 ;
+}
+.form{
+    width: 400px;
+    position: relative;
+    /*border: 2px solid red;*/
+    margin: 0 auto; 
+}
+.form input{
+    width: 345px;
+    height: 45px;
+    font-family: 'playfair-display',serif;
+    font-size: 14px;
+    color: #626262;
+    border: none;
+    border-bottom:1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+    
+}
+.form input :focus{
+    outline: 0;
+}
+form button{
+position: absolute;
+top: 12px;
+right: 0;
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+.form button :focus{
+    outline: 0;
+}
+form button img{}
+/*newsletter end*/
+/*blog2 start*/
+.blog2{}
+.load{
+    margin: 20px 0 10px;
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 190px;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    font-family: 'playfair-display',serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border:1px solid #626262;
+    transition: .33s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+/*blog2 end*/
+/*footer start*/
+footer{
+    margin-top: 50px;
+    padding: 40px 0;
+    background-color: #f0f0f0;
+}
+.pages{float: left;
+width: 30%;
+}
+.pages ul{
+    float: left;
+}
+.pages ul li{
+    float: left;
+    list-style: none;
+}
+.pages ul li a{
+    margin-left: 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #626262;
+}
+.pages ul li:first-child a{
+    margin-left: 0;
+}
+.social{
+    width: 30%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.social ul{
+    margin-top: 18px;
+    float: right;
+}
+.social ul li{
+   
+    margin-right: 50px;
+    float: left;
+    list-style: none;
+}
+.social ul li span{}
+.social ul li a{}
+.social ul li a img{}
+.social ul li:last-child{
+    margin-right: 2px;
+}
+/* footer end  */
